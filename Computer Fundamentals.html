@@ -1,94 +1,140 @@
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Computer Fundamentals</title>
-   <Style>
-	body {
-            display: flex;
-            flex-direction: column; /* Align items in a column */
-            margin: 2;
-border: 10 px ;
-font-size: 1em; 
-margin: 50px;
+    <!-- Bootstrap CSS link -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 50px;
             padding: 10px;
-     		 font-family: Arial, sans-serif; 
         }
-	h3,h4,h5{
-	 text-align: right;
- 	line-height: 0.1;
-	}
-	h6,h7,h8,h9,h11 {
-           unicode-bidi: bidi-override;
+
+        h3,
+        h4,
+        h5 {
+            text-align: right;
+            line-height: 0.1;
+        }
+
+        h6,
+        h7,
+        h8,
+        h9,
+        h11 {
+            unicode-bidi: bidi-override;
             text-align: left;
-  font-size: 1em; 
-           font-weight: bold; 
+            font-size: 1em;
+            font-weight: bold;
             margin: 0;
         }
-	 
 
- 	h1, h2 {
-            margin: 2; 
-   text-align: center;
-            font-size: 1em; 
-            font-weight: bold; 
+        h1,
+        h2 {
+            text-align: center;
+            font-size: 1em;
+            font-weight: bold;
         }
-p {
-            text-align: left; /* Align paragraphs to the left */
-            margin: 0; /* Remove default paragraph margins */
+
+        p {
+            text-align: left;
+            margin: 0;
         }
 
         .point {
             display: flex;
             align-items: flex-start;
-            margin-top: 8px; /* Add some space between points */
+            margin-top: 8px;
         }
 
         .point::before {
-            content: '\2022'; /* Unicode character for bullet point */
+            content: '\2022';
             font-size: 1.3em;
-            margin-right: 8px; /* Add space between bullet point and text */
+            margin-right: 8px;
         }
-</Style>
+    </style>
 </head>
+
 <body>
-  <h3>External Marks: 80</h3>
-        <h4>Internal Marks: 20</h4>
-  <h5>Time : 3 hrs.</h5>
-     
-  <h1>COMPUTER FUNDAMENTALS</h1>
-        <h2>PAPER CODE: BBAN-104</h2>
-     <h6>UNIT-I</h6>
-<p>Introduction – Digital and analog computers, evolution of digital computers,
-major components of a digital computer, hardware, software, firmware,
-middleware and freeware, computer applications; Input devices, output
-devices, printers, plotters, other forms of output devices; main memory,
-secondary memory and backup memory. </p>
-  <h7>UNIT-II</h7>
-<p>Decimal number system, binary number system, conversion of a binary
-number to decimal number, conversion of a decimal number to a binary
-number, addition of binary numbers, binary subtraction, hexadecimal number
-system, octal number system.  </p>
-  <h8>UNIT-III</h8>
-<p>Introduction to Operating System, history; functions, types, structure,
-memory management; file management system. </p>
-  <h9>UNIT-IV</h9>
-<p>Computer applications in offices, use of computers in books publication,
-desktop publishing system, application of computers for data analysis,
-application of computer in education, application of computer in banks,
-medical field. </p>
-  <h9>SUGGESTED READINGS:</h9>
-   <p class="point">Gill, Nasib, Computer Fundamental and Internet  </p>
-       
- <p class="point">Saxena, Computer Applications in Management, Vikas Publication, New
-Delhi </p>
- <p class="point">B. Ram, Computer Fundamentals, New Age Publications, New Delhi  </p>
- <p class="point">Rajaraman, V., Computer Fundamentals, PHI, New Delhi</p>
-<h11>Note:</h11>
-        <p class="point">Instructions for External Examiner: The question paper shall be divided in two sections. Section ‘A’ shall comprise of eight short answer type questions from whole of the syllabus carrying two marks each, which shall be compulsory. Answer to each question should not exceed 50 words normally.</p>
-        <p class="point">Section ‘B’ shall comprise of 8 questions (2 questions from each unit). The students will be required to attempt four questions selecting one question from each unit.</p>
- <p class="point">All questions will carry equal marks.</p>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h3>External Marks: 80</h3>
+                <h4>Internal Marks: 20</h4>
+                <h5>Time: 3 hrs.</h5>
+                <h1>COMPUTER FUNDAMENTALS</h1>
+                <h2>PAPER CODE: BBAN-104</h2>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <h6>UNIT-I</h6>
+                <p>Introduction – Digital and analog computers, evolution of digital computers, major components of a
+                    digital computer, hardware, software, firmware, middleware and freeware, computer applications;
+                    Input devices, output devices, printers, plotters, other forms of output devices; main memory,
+                    secondary memory and backup memory. </p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <h7>UNIT-II</h7>
+                <p>Decimal number system, binary number system, conversion of a binary number to decimal number,
+                    conversion of a decimal number to a binary number, addition of binary numbers, binary subtraction,
+                    hexadecimal number system, octal number system. </p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <h8>UNIT-III</h8>
+                <p>Introduction to Operating System, history; functions, types, structure, memory management; file
+                    management system. </p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <h9>UNIT-IV</h9>
+                <p>Computer applications in offices, use of computers in books publication, desktop publishing system,
+                    application of computers for data analysis, application of computer in education, application of
+                    computer in banks, medical field. </p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <h9>SUGGESTED READINGS:</h9>
+                <p class="point">Gill, Nasib, Computer Fundamental and Internet </p>
+                <p class="point">Saxena, Computer Applications in Management, Vikas Publication, New Delhi </p>
+                <p class="point">B. Ram, Computer Fundamentals, New Age Publications, New Delhi </p>
+                <p class="point">Rajaraman, V., Computer Fundamentals, PHI, New Delhi</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <h11>Note:</h11>
+                <p class="point">Instructions for External Examiner: The question paper shall be divided into two
+                    sections. Section ‘A’ shall comprise of eight short answer-type questions from the whole syllabus
+                    carrying two marks each, which shall be compulsory. The answer to each question should not
+                    exceed 50 words normally.</p>
+                <p class="point">Section ‘B’ shall comprise of 8 questions (2 questions from each unit). The students will be
+                    required to attempt four questions, selecting one question from each unit.</p>
+                <p class="point">All questions will carry equal marks.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS and Popper.js -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 </body>
+
 </html>

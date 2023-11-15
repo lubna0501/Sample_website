@@ -3,86 +3,94 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Financial management</title>
-   <Style>
-	body {
+    <title>Financial Management</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
             display: flex;
-            flex-direction: column; /* Align items in a column */
+            flex-direction: column;
             margin: 2;
-border: 10 px ;
-font-size: 1em; 
-margin: 50px;
+            border: 10px;
+            font-size: 1em;
+            margin: 50px;
             padding: 10px;
-     		 font-family: Arial, sans-serif; 
+            font-family: Arial, sans-serif;
         }
-	h3,h4,h5{
-	 text-align: right;
- 	line-height: 0.1;
-	}
-	h6,h7,h8,h9,h11 {
-           unicode-bidi: bidi-override;
+
+        h3, h4, h5 {
+            text-align: right;
+            line-height: 0.1;
+        }
+
+        h6, h7, h8, h9, h11 {
+            unicode-bidi: bidi-override;
             text-align: left;
-  font-size: 1em; 
-           font-weight: bold; 
+            font-size: 1em;
+            font-weight: bold;
             margin: 0;
         }
-	 
 
- 	h1, h2 {
-            margin: 2; 
-   text-align: center;
-            font-size: 1em; 
-            font-weight: bold; 
+        h1, h2 {
+            margin: 2;
+            text-align: center;
+            font-size: 1em;
+            font-weight: bold;
         }
-p {
-            text-align: left; /* Align paragraphs to the left */
-            margin: 0; /* Remove default paragraph margins */
+
+        p {
+            text-align: left;
+            margin: 0;
         }
 
         .point {
             display: flex;
             align-items: flex-start;
-            margin-top: 8px; /* Add some space between points */
+            margin-top: 8px;
         }
 
         .point::before {
-            content: '\2022'; /* Unicode character for bullet point */
+            content: '\2022';
             font-size: 1.3em;
-            margin-right: 8px; /* Add space between bullet point and text */
+            margin-right: 8px;
         }
-</Style>
+    </style>
 </head>
 <body>
-  <h3>External Marks: 80</h3>
-        <h4>Internal Marks: 20</h4>
-  <h5>Time : 3 hrs.</h5>
-     
-  <h1>FINANCIAL MANAGEMENT </h1>
-        <h2>PAPER CODE: BBAN-401</h2>
-     <h6>UNIT-I</h6>
-<p>Evolution, scope and function of finance managers, objectives of financial
-management, profit vs. wealth maximization, time value of money.</p>
-  <h7>UNIT-II</h7>
-<p>Investment Decisions; brief introduction of cost of capital; methods of capital
-budgeting; ARR, PBP, NPV and IRR, capital rationing (simple problems on
-capital budgeting methods). </p>
-  <h8>UNIT-III</h8>
-<p>Financing decision: operational and financial leverage; capital structure
-theories – NI, NOI and traditional approach; EPS-EBIT Analysis.  </p>
-  <h9>UNIT-IV</h9>
-<p>Dividend decision and Management of working capital; determinants of
-dividend policy; Walter’s Dividend Model; Operating Cycle, brief discussion on
-management of cash, receivable and inventory (simple problem on operating
-cycle and inventory management).  </p>
+<section class="container">
+    <h3>External Marks: 80</h3>
+    <h4>Internal Marks: 20</h4>
+    <h5>Time: 3 hrs.</h5>
 
-  <h9>SUGGESTED READINGS:</h9>
-   <p class="point">Pandey, I.M., Financial Management, Vikas Publishing House, New Delhi</p>
-        <p class="point">Khan and Jain, Financial Management, Tata McGraw Hill, New Delhi  </p>
- <p class="point">Kishore, R., Financial Management, Taxman’s Publishing House, New
-Delhi </p>
-<h11>Note:</h11>
-        <p class="point">Instructions for External Examiner: The question paper shall be divided in two sections. Section ‘A’ shall comprise of eight short answer type questions from whole of the syllabus carrying two marks each, which shall be compulsory. Answer to each question should not exceed 50 words normally.</p>
-        <p class="point">Section ‘B’ shall comprise of 8 questions (2 questions from each unit). The students will be required to attempt four questions selecting one question from each unit.</p>
- <p class="point">All questions will carry equal marks.</p>
+    <h1>FINANCIAL MANAGEMENT</h1>
+    <h2>PAPER CODE: BBAN-401</h2>
+
+    <h6>UNIT-I</h6>
+    <p>Evolution, scope and function of finance managers, objectives of financial management, profit vs. wealth maximization, time value of money.</p>
+
+    <h7>UNIT-II</h7>
+    <p>Investment Decisions; brief introduction of cost of capital; methods of capital budgeting; ARR, PBP, NPV and IRR, capital rationing (simple problems on capital budgeting methods).</p>
+
+    <h8>UNIT-III</h8>
+    <p>Financing decision: operational and financial leverage; capital structure theories – NI, NOI and traditional approach; EPS-EBIT Analysis.</p>
+
+    <h9>UNIT-IV</h9>
+    <p>Dividend decision and Management of working capital; determinants of dividend policy; Walter’s Dividend Model; Operating Cycle, brief discussion on management of cash, receivable and inventory (simple problem on operating cycle and inventory management).</p>
+
+    <h9>SUGGESTED READINGS:</h9>
+    <p class="point">Pandey, I.M., Financial Management, Vikas Publishing House, New Delhi</p>
+    <p class="point">Khan and Jain, Financial Management, Tata McGraw Hill, New Delhi</p>
+    <p class="point">Kishore, R., Financial Management, Taxman’s Publishing House, New Delhi</p>
+
+    <h11>Note:</h11>
+    <p class="point">Instructions for External Examiner: The question paper shall be divided into two sections. Section ‘A’ shall comprise eight short answer type questions from the whole syllabus carrying two marks each, which shall be compulsory. Answer to each question should not exceed 50 words normally.</p>
+    <p class="point">Section ‘B’ shall comprise of 8 questions (2 questions from each unit). The students will be required to attempt four questions selecting one question from each unit.</p>
+    <p class="point">All questions will carry equal marks.</p>
+</section>
+
+<!-- Bootstrap JS and Popper.js -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
 </body>
 </html>

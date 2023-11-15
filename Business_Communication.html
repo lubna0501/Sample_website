@@ -1,92 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Business_Communication</title>
-   <Style>
-	body {
+    <title>Business Communication</title>
+    <!-- Add Bootstrap CSS link -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
             display: flex;
-            flex-direction: column; /* Align items in a column */
+            flex-direction: column;
+            /* Align items in a column */
             margin: 2;
-border: 10 px ;
-font-size: 1em; 
-margin: 50px;
+            border: 10px;
+            font-size: 1em;
+            margin: 50px;
             padding: 10px;
-     		 font-family: Arial, sans-serif; 
+            font-family: Arial, sans-serif;
         }
-	h3,h4,h5{
-	 text-align: right;
- 	line-height: 0.1;
-	}
-	h6,h7,h8,h9,h11 {
-           unicode-bidi: bidi-override;
+
+        h3,
+        h4,
+        h5 {
+            text-align: right;
+            line-height: 0.1;
+        }
+
+        h6,
+        h7,
+        h8,
+        h9,
+        h11 {
+            unicode-bidi: bidi-override;
             text-align: left;
-  font-size: 1em; 
-           font-weight: bold; 
+            font-size: 1em;
+            font-weight: bold;
             margin: 0;
         }
-	 
 
- 	h1, h2 {
-            margin: 2; 
-   text-align: center;
-            font-size: 1em; 
-            font-weight: bold; 
+        h1,
+        h2 {
+            margin: 2;
+            text-align: center;
+            font-size: 1em;
+            font-weight: bold;
         }
-p {
-            text-align: left; /* Align paragraphs to the left */
-            margin: 0; /* Remove default paragraph margins */
+
+        p {
+            text-align: left;
+            /* Align paragraphs to the left */
+            margin: 0;
+            /* Remove default paragraph margins */
         }
 
         .point {
             display: flex;
             align-items: flex-start;
-            margin-top: 8px; /* Add some space between points */
+            margin-top: 8px;
+            /* Add some space between points */
         }
 
         .point::before {
-            content: '\2022'; /* Unicode character for bullet point */
+            content: '\2022';
+            /* Unicode character for bullet point */
             font-size: 1.3em;
-            margin-right: 8px; /* Add space between bullet point and text */
+            margin-right: 8px;
+            /* Add space between bullet point and text */
         }
-</Style>
+    </style>
 </head>
-<body>
-  <h3>External Marks: 80</h3>
-        <h4>Internal Marks: 20</h4>
-  <h5>Time : 3 hrs.</h5>
-     
-  <h1>BUSINESS COMMUNICATION</h1>
-        <h2>PAPER CODE: BBAN-105</h2>
-     <h6>UNIT-I</h6>
-<p>Business Communication – Nature and process, forms of communication, role
-of communication skills in business, communication networks, barriers to
-communication.  </p>
-  <h7>UNIT-II</h7>
-<p>Communication Skills: Listening skills – cognitive process of listening, barriers
-to listening, reading skills, speaking skills, public speaking, voice modulation
-and body language.</p>
-  <h8>UNIT-III</h8>
-<p>Written Communication – Types, structures and layout of business letters;
-presentative letters – sales letters, claim letters, employment letters, writing
-memo, notice and circular.  </p>
-  <h9>UNIT-IV</h9>
-<p>Business Reports – Purpose and types, framework of business reports,
-presentation of reports, brochures, issuing notice and agenda of meeting and
-recording of minutes of meetings.  </p>
-  <h9>SUGGESTED READINGS:</h9>
-   <p class="point">Koneru, Arun, Professional Communication, Tata McGraw Hill, New Delhi  </p>
-        <p class="point">Monipally, M.M., Business Communication Strategies, Tata McGraw Hill,New Delhi</p>
- <p class="point">Das, Biswajit and Ipseeta Satpathy, Business Communication and
-Personality Development, Excel Books, New Delhi   </p>
- <p class="point">McGrath, E.H., Basic Managerial Skills for All, Prentice Hall of India, New
-Delhi </p>
- <p class="point">Rai, Urmila and S.M. Rai, Business Communication, Himalaya Publishing
-House, Mumbai </p>
-<h11>Note:</h11>
-        <p class="point">Instructions for External Examiner: The question paper shall be divided in two sections. Section ‘A’ shall comprise of eight short answer type questions from whole of the syllabus carrying two marks each, which shall be compulsory. Answer to each question should not exceed 50 words normally.</p>
-        <p class="point">Section ‘B’ shall comprise of 8 questions (2 questions from each unit). The students will be required to attempt four questions selecting one question from each unit.</p>
- <p class="point">All questions will carry equal marks.</p>
+
+<body class="container">
+    <h3>External Marks: 80</h3>
+    <h4>Internal Marks: 20</h4>
+    <h5>Time : 3 hrs.</h5>
+
+    <h1>BUSINESS COMMUNICATION</h1>
+    <h2>PAPER CODE: BBAN-105</h2>
+    <h6>UNIT-I</h6>
+    <p>Business Communication – Nature and process, forms of communication, role of communication skills in business,
+        communication networks, barriers to communication. </p>
+    <h7>UNIT-II</h7>
+    <p>Communication Skills: Listening skills – cognitive process of listening, barriers to listening, reading skills,
+        speaking skills, public speaking, voice modulation and body language.</p>
+    <h8>UNIT-III</h8>
+    <p>Written Communication – Types, structures and layout of business letters; representative letters – sales letters,
+        claim letters, employment letters, writing memo, notice and circular. </p>
+    <h9>UNIT-IV</h9>
+    <p>Business Reports – Purpose and types, framework of business reports, presentation of reports, brochures, issuing
+        notice and agenda of meeting and recording of minutes of meetings. </p>
+    <h9>SUGGESTED READINGS:</h9>
+    <p class="point">Koneru, Arun, Professional Communication, Tata McGraw Hill, New Delhi </p>
+    <p class="point">Monipally, M.M., Business Communication Strategies, Tata McGraw Hill, New Delhi</p>
+    <p class="point">Das, Biswajit and Ipseeta Satpathy, Business Communication and Personality Development, Excel Books, New
+        Delhi </p>
+    <p class="point">McGrath, E.H., Basic Managerial Skills for All, Prentice Hall of India, New Delhi </p>
+    <p class="point">Rai, Urmila and S.M. Rai, Business Communication, Himalaya Publishing House, Mumbai </p>
+    <h11>Note:</h11>
+    <p class="point">Instructions for External Examiner: The question paper shall be divided into two sections. Section ‘A’ shall
+        comprise eight short-answer type questions from the whole syllabus carrying two marks each, which shall be
+        compulsory. Answers to each question should not exceed 50 words normally.</p>
+    <p class="point">Section ‘B’ shall comprise eight questions (two questions from each unit). The students will be required to
+        attempt four questions, selecting one question from each unit.</p>
+    <p class="point">All questions will carry equal marks.</p>
+
+    <!-- Add Bootstrap JS and Popper.js scripts -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
+
 </html>

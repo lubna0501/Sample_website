@@ -1,46 +1,73 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us</title>
-<style>
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
         body {
-display: flex;
+            display: flex;
             flex-direction: column;
             text-align: center;
+            margin: 20px;
+            font-family: Arial, sans-serif;
         }
-	h1,h2{
-    text-align: center;
-}
-input[type="text"],
+
+        h1,
+        h2 {
+            text-align: center;
+        }
+
+        input[type="text"],
         textarea {
             display: block;
-            width: 100%; /* Set the width to 100% */
-            margin-bottom: 20px; /* Adjust the margin as needed */
+            width: 100%;
+            margin-bottom: 20px;
+            padding: 10px;
+            box-sizing: border-box;
         }
 
         input[type="submit"] {
-            width: auto; /* Reset width for the submit button */
+            width: auto;
+            padding: 10px 20px;
+            background-color: #4caf50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
         }
+
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+
         section {
             display: inline-block;
             text-align: left;
         }
     </style>
 </head>
+
 <body>
-     <section>
-<h1>Coontact Us </h1>
-        <h2>Address: Bhiwani Road , Rohtak (124001)</h2>
-	<h2>Phone: 01262-265345</h2>
-<h2> Email: hindu_bca@yahoo.com</h2>
-<input type="text" name="Name" placeholder="Name">
-    <input type="text" name="Email" placeholder="Email" maxlength="30">
-<input type="text" name="Phone" placeholder="Phone">
-    <textarea name="Message" rows="5" cols="50" maxlength="200" placeholder="Message"></textarea>
-    <input type="submit" value="Send" class="wpcf7-form-control wpcf7-submit" fdprocessedid="4t8z3sq">
-</section>
-     
+    <section>
+        <h1>Contact Us</h1>
+        <h2>Address: Bhiwani Road, Rohtak (124001)</h2>
+        <h2>Phone: 01262-265345</h2>
+        <h2>Email: hindu_bca@yahoo.com</h2>
+
+        <form action="#" method="post">
+            <input type="text" name="Name" placeholder="Name">
+            <input type="text" name="Email" placeholder="Email" maxlength="30">
+            <input type="text" name="Phone" placeholder="Phone">
+            <textarea name="Message" rows="5" cols="50" maxlength="200" placeholder="Message"></textarea>
+            <input type="submit" value="Send" class="wpcf7-form-control wpcf7-submit" fdprocessedid="4t8z3sq">
+        </form>
+    </section>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.8/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
+
 </html>

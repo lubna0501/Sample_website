@@ -1,86 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Company Law </title>
-   <Style>
-	body {
+    <title>Company Law</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <style>
+        body {
             display: flex;
-            flex-direction: column; /* Align items in a column */
+            flex-direction: column;
             margin: 2;
-border: 10 px ;
-font-size: 1em; 
-margin: 50px;
+            border: 10px;
+            font-size: 1em;
+            margin: 50px;
             padding: 10px;
-     		 font-family: Arial, sans-serif; 
+            font-family: Arial, sans-serif;
         }
-	h3,h4,h5{
-	 text-align: right;
- 	line-height: 0.1;
-	}
-	h6,h7,h8,h9,h11 {
-           unicode-bidi: bidi-override;
+
+        h3, h4, h5 {
+            text-align: right;
+            line-height: 0.1;
+        }
+
+        h6, h7, h8, h9, h11 {
+            unicode-bidi: bidi-override;
             text-align: left;
-  font-size: 1em; 
-           font-weight: bold; 
+            font-size: 1em;
+            font-weight: bold;
             margin: 0;
         }
-	 
 
- 	h1, h2 {
-            margin: 2; 
-   text-align: center;
-            font-size: 1em; 
-            font-weight: bold; 
+        h1, h2 {
+            margin: 2;
+            text-align: center;
+            font-size: 1em;
+            font-weight: bold;
         }
-p {
-            text-align: left; /* Align paragraphs to the left */
-            margin: 0; /* Remove default paragraph margins */
+
+        p {
+            text-align: left;
+            margin: 0;
         }
 
         .point {
             display: flex;
             align-items: flex-start;
-            margin-top: 8px; /* Add some space between points */
+            margin-top: 8px;
         }
 
         .point::before {
-            content: '\2022'; /* Unicode character for bullet point */
+            content: '\2022';
             font-size: 1.3em;
-            margin-right: 8px; /* Add space between bullet point and text */
+            margin-right: 8px;
         }
-</Style>
+    </style>
 </head>
-<body>
-  <h3>External Marks: 80</h3>
-        <h4>Internal Marks: 20</h4>
-  <h5>Time : 3 hrs.</h5>
-     
-  <h1>COMPANY LAW</h1>
-        <h2>PAPER CODE: BBAN-502</h2>
-     <h6>UNIT-I</h6>
-<p>Company-meaning and features, kinds of companies, registration and incorporation, memorandum of association, article of association, prospectus
- </p>
-  <h7>UNIT-II</h7>
-<p>Share Capital-Shares, issue and allotment of shares, transfer of shares, types of shares, alteration of share capital, buy-back of shares, surrender and forfeiture of shares, bonus shares
-Debentures-Meaning and kinds, debenture trust deed and duties of trustee
- </p>
-  <h8>UNIT-III</h8>
-<p>Company Administration and Meetings - Board of Directors-qualification, appointment duties and remuneration Meetings - Statutory meeting, annual general meeting, extra-ordinary general meeting
-   </p>
-  <h9>UNIT-IV</h9>
-<p>Prevention of oppression and mismanagement Winding up - types of winding up, appointment of liquidator, powers of liquidator, conduct of winding up
-</p>
-   
-  <h9>SUGGESTED READINGS:</h9>
-   <p class="point">ingh, Avtar, Company Law, Eastern Book Company, Lucknow
-  </p>
-        <p class="point">Kapoor, N D. Elements of Company Law</p>
-  
-<h11>Note:</h11>
-        <p class="point">Instructions for External Examiner: The question paper shall be divided in two sections. Section ‘A’ shall comprise of eight short answer type questions from whole of the syllabus carrying two marks each, which shall be compulsory. Answer to each question should not exceed 50 words normally.</p>
-        <p class="point">Section ‘B’ shall comprise of 8 questions (2 questions from each unit). The students will be required to attempt four questions selecting one question from each unit.</p>
- <p class="point">All questions will carry equal marks.</p>
+
+<body class="container">
+    <h3 class="text-right">External Marks: 80</h3>
+    <h4 class="text-right">Internal Marks: 20</h4>
+    <h5 class="text-right">Time : 3 hrs.</h5>
+
+    <h1 class="text-center">COMPANY LAW</h1>
+    <h2 class="text-center">PAPER CODE: BBAN-502</h2>
+    <h6>UNIT-I</h6>
+    <p>Company-meaning and features, kinds of companies, registration and incorporation, memorandum of association, article of association, prospectus</p>
+    <h7>UNIT-II</h7>
+    <p>Share Capital-Shares, issue and allotment of shares, transfer of shares, types of shares, alteration of share capital, buy-back of shares, surrender and forfeiture of shares, bonus shares Debentures-Meaning and kinds, debenture trust deed and duties of trustee</p>
+    <h8>UNIT-III</h8>
+    <p>Company Administration and Meetings - Board of Directors-qualification, appointment duties and remuneration Meetings - Statutory meeting, annual general meeting, extra-ordinary general meeting</p>
+    <h9>UNIT-IV</h9>
+    <p>Prevention of oppression and mismanagement Winding up - types of winding up, appointment of liquidator, powers of liquidator, conduct of winding up</p>
+
+    <h9>SUGGESTED READINGS:</h9>
+    <p class="point">Singh, Avtar, Company Law, Eastern Book Company, Lucknow</p>
+    <p class="point">Kapoor, N D. Elements of Company Law</p>
+
+    <h11>Note:</h11>
+    <p class="point">Instructions for External Examiner: The question paper shall be divided into two sections. Section ‘A’ shall comprise eight short answer type questions from the whole syllabus carrying two marks each, which shall be compulsory. Answer to each question should not exceed 50 words normally.</p>
+    <p class="point">Section ‘B’ shall comprise of 8 questions (2 questions from each unit). The students will be required to attempt four questions selecting one question from each unit.</p>
+    <p class="point">All questions will carry equal marks.</p>
+
+    <!-- Bootstrap JS and Popper.js -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 </body>
+
 </html>
